@@ -1,4 +1,4 @@
-package com.junle.socket;
+package com.junle;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
