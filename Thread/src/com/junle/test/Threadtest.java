@@ -18,6 +18,7 @@ public class Threadtest extends Thread {
     public static void main(String[] args) throws InterruptedException {
 
         Threadtest thread=new Threadtest();
+        thread.setDaemon(true);//设置为守护线程，默认false为用户进程
         thread.start();
 
         for(int i=0;i<30;i++){
