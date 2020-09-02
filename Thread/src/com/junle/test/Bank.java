@@ -5,7 +5,7 @@ public class Bank {
         Account account=new Account(10000,"小黄的工资卡");
         //同时取钱
         Drawing girlfriend=new Drawing(account,4396,"小黄的女朋友");
-        Drawing you=new Drawing(account,8000,"小黄");
+        Drawing you=new Drawing(account,4000,"小黄");
         girlfriend.start();
         you.start();
     }
